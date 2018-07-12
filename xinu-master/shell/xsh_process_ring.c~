@@ -1,0 +1,13 @@
+#include <xinu.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <process_ring.h>
+
+
+shellcmd polling(int args, char *args[]) {
+uint32 start, stop;
+gettime(&start);
+gettime(&stop);
+
+}

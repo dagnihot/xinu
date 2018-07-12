@@ -1,0 +1,17 @@
+Dhruv Agnihotri
+P-436
+Assignment 3 - Report
+
+•	Which implementation consumes more space? Why? Give an objective answer comparing your imple52mentation vs Xinu [5]
+	o	Depends on the situation. If there are over 100 process, list implementation uses more space. If there are less than 100 process, list uses less space. Xinu has room for 100 processes no matter what.
+
+•	Which implementation may take less time for basic process manipulation? A comparison for time to FIFO and non-FIFO queues with your implementation vs Xinu [5]
+	o	Initially, my implementation would take less time than xinu but eventually, as larger amounts of data are processed, Xinu would be faster.
+
+•	Advantages/Disadvantages of pointer based implementation over Xinu version [5]
+	o	Advantage: have more than 100 process. 
+	o	Disadvantage: Basic functions are faster but delete and getitem are slower
+
+•	Please explain what it means to be a valid queue ID in Xinu. 
+	o	A valid queue ID must range from 0 to NQUENT-1
+

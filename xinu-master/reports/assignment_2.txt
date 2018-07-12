@@ -1,0 +1,16 @@
+Dhruv Agnihotri
+Assignment 2 - Report
+
+1.) What are 2 things that you learned from this assignment?
+
+I learned some advantages of synchonization over polling. Synchronization is a bit faster than polling and you dont have to make sure the process is not exuting when it is not suppose to. 
+Synchronization takes care of that. I also learned that Xinu processes all share the same address space and can share variables directly.
+
+2.) What are 2 mistakes that you made in this assignment, and how did you discover and fix these mistakes?
+
+One really dumb mistake I made in this assignment was not originally including my .h file in process_ring.c. I recieved quite a few errors when i tried to compile my program but after including the .h at the top, those errors went away. Another mistake I made was not making some of my variables to be volatile. The volatile quantifier allows for the complier to know that the value of the variable can be changed at any time. To fix this I just simply added the volatile qualtifier in front of the variables. 
+
+3.) If you were restarting this assignment, what would you change about how you went about completing this assignment?
+
+I would definitely have started the assignment earlier. Eventhough I completed the assignment on time, I felt a little hurried because of the amount of work/time this assignment took to complete.
+

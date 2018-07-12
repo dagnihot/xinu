@@ -1,0 +1,17 @@
+Dhruv Agnihotri
+P436 Assignment 1
+Report
+1/18/2018
+
+What are Orphan and Zombie processes?
+
+A process is classified as an orphan process when its parent processes cease to exist.
+A process is classified as a zombie process when a parent process does not use the wait system call after a child dies to read its exit status
+
+
+
+What are the changes that occur when the child process calls the exec system call to execute a new program?
+
+Step 1: A new process id is created for the process. 
+Step 3: fork() is called to make a copy of the process. 
+Step 4: exec() is called and replaces an address space with a new program that has a process id so that new data can continue to be processed.
